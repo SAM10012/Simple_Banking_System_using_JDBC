@@ -2,7 +2,7 @@
 
 A console-based banking application developed in **Java** using **JDBC** for database connectivity with **MySQL**. This project simulates real-world banking operations such as account creation, balance check, deposit, withdrawal, fund transfer, and account deletion.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 🧠 Features
 
@@ -15,7 +15,7 @@ A console-based banking application developed in **Java** using **JDBC** for dat
 - 🗑️ Delete customer accounts.
 - 🔄 Repeats operations until explicitly exited.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 🛠️ Tech Stack
 
@@ -24,7 +24,7 @@ A console-based banking application developed in **Java** using **JDBC** for dat
 - **Connector**: JDBC.
 - **Database Driver**: `com.mysql.cj.jdbc.Driver.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 🗃️ Database Schema
 
@@ -37,9 +37,8 @@ CREATE TABLE customers (
   balance DOUBLE NOT NULL
 );
 
-============================================================================================================================================================
 
-How to Run This Project (Prerequisites: Make sure you have MySQL and Java installed)
+How to Run This Project (Prerequisites: Make sure you have MySQL and Java installed and configured.)
 
 1. Clone this repository: git clone https://github.com/yourusername/simple-banking-system.git
 2. Create the simplebankingsystem MySQL database and run the schema above.
@@ -51,7 +50,6 @@ How to Run This Project (Prerequisites: Make sure you have MySQL and Java instal
       javac SimpleBankingSystem.java
       java SimpleBankingSystem
 
-===========================================================================================================================================================
 
 📚 Concepts Used
 
@@ -67,21 +65,17 @@ How to Run This Project (Prerequisites: Make sure you have MySQL and Java instal
 
 6. Transaction Management (commit() and rollback())
 
-==========================================================================================================================================================
 
 🙌 Acknowledgements
 This project was built as a beginner-friendly hands-on exercise to strengthen JDBC and MySQL integration in Java.
 
-==========================================================================================================================================================
 
 📝 License
 This project is open source and free to use under the MIT License.
 
-==========================================================================================================================================================
 
 ✍️ Author
 Made with ❤️ by Samadrita
 
-==========================================================================================================================================================
 
 
